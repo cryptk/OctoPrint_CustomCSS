@@ -1,1 +1,4 @@
-/* TODO: Have your plugin's CSS files generated to here. */
+#customcss_textarea {
+  width: 100%;
+  box-sizing: border-box;
+}

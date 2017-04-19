@@ -1,0 +1,9 @@
+<form onsubmit="return customcss_getContent()">
+    <div class="control-group">
+        <label class="control-label">{{ _('Custom CSS') }}</label>
+        <div class="controls">
+            <textarea rows=20 id="customcss_textarea" name="custom_css" data-bind="value: settings.plugins.customcss.custom_css"></textarea>
+        </div>
+    </div>
+    <span class="label label-info">Info</span> Please note that CSS changes will only be applied after a refresh of the page
+</form>
